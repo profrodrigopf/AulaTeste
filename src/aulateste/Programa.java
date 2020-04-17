@@ -3,7 +3,11 @@ package aulateste;
 public class Programa {
 
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        Jogador jogador1 = new Jogador();
+        
+        Time time1 = new Time();
+        time1.exibirTime();
     }
     
 }
