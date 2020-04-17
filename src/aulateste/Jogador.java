@@ -6,6 +6,7 @@ public class Jogador extends Pessoa{
     
     public Jogador(){
         super.criarPessoa();
+        System.out.println("Posição: ");
         this.posicao = this.sc.next();
     }
 }

@@ -14,12 +14,6 @@ public class Time {
         System.out.println("Time: ");
         this.nomeTime = sc.next();
         
-        System.out.println("Adicionar jogador?");
-        System.out.println("Digite 1 para sim");
-        System.out.println("Digite 2 para não");
-        int addJogador = sc.nextInt();
-        
-        
     }
     
     public void criarTime(){
@@ -33,8 +27,8 @@ public class Time {
     public void exibirTime(){
         System.out.println("Time: "+ this.nomeTime);
         
-        for(int i = 1; i <= this.jogador.size(); i++){
-            System.out.println("Nome: " + jogador);
+        for(Jogador jogador : jogador){
+            System.out.println("Nome: " + jogador.nomePessoa + " Posição: " + jogador.posicao);
         }
     }
     
