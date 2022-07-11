@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Pessoa {
     
-    String nomePessoa;
+    private String nomePessoa;
     
     Scanner sc = new Scanner(System.in);
     
@@ -12,5 +12,15 @@ public class Pessoa {
         System.out.println("Nome: ");
         this.nomePessoa = sc.next();
     }
+
+	public String getNomePessoa() {
+		return nomePessoa;
+	}
+
+	public void setNomePessoa(String nomePessoa) {
+		this.nomePessoa = nomePessoa;
+	}
+    
+    
     
 }
